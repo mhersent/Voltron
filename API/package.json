@@ -1,0 +1,25 @@
+{
+  "name": "voltron6_api",
+  "version": "1.0.0",
+  "description": "API Voltron group 6",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EpitechMscPro2020/BigData_group_6.git"
+  },
+  "author": "Gabin BLAZER",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EpitechMscPro2020/BigData_group_6/issues"
+  },
+  "homepage": "https://github.com/EpitechMsnPro2020/BigData_group_6#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7",
+    "pg": "^8.6.0",
+    "request": "^2.88.2"
+  }
+}
