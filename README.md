@@ -19,6 +19,7 @@ Voltron BigData group 6
 [POST] Route : http://localhost:3000/books
 
 Json : 
+```json
 {
     "title": "Titre livre",
     "authors": "J.K. Rowling/Mary GrandPré",
@@ -32,6 +33,7 @@ Json :
     "publication_date": "2006-09-15T22:00:00.000Z",
     "publisher": "Scholastic Inc."
 }
+```
 
 ### Requete mise à jour par id
 
@@ -39,6 +41,9 @@ Json :
 
 Update que du titre (à voir si besoin de plus)
 
+JSON : 
+```json
 {
     "title" : "Titre livre"
 }
+```
