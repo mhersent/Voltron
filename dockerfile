@@ -1,4 +1,4 @@
-FROM node:10
+FROM node:lts
 
 WORKDIR /API
 
@@ -11,4 +11,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD npm start
+CMD run dev
