@@ -1,6 +1,20 @@
 # BigData_group_6
 Voltron BigData group 6
 
+## Lancement par docker
+sudo docker-compose build
+sudo docker-compose up
+
+## Technos utilisés
+### API
+NodeJS par simplicité d'utilisation et connaissance de la technologie
+
+### Base de donnée
+Postgres par simplicité de mise en place et connaissance de la technologie
+
+### Tableau de bord
+PGAdmin pour la simplicité de prise en main et la liberté d'utilisation et de ces fonctionnalité
+
 ## Routes
 ### Requete selection all
 
@@ -47,3 +61,6 @@ JSON :
     "title" : "Titre livre"
 }
 ```
+
+## Bugs
+Implémentation de la route de doc (récupérable par le fichier docs/index.html)
