@@ -2,8 +2,7 @@ FROM node:lts
 
 WORKDIR /API
 
-COPY ./package.json .
-COPY ./package-lock.json .
+COPY ./package*.json ./
 
 RUN npm install
 
