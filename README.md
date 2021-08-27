@@ -1,12 +1,24 @@
-# BigData_group_6
+# Project Voltron
 
-Voltron BigData group 6
+The goal of this Epitech project was to answer a call of tender from a client, while working by speciality groups.
+We had to create a Proof of Concept (PoC) for a virtual library, with a web site and database hosted in the cloud, archive's room automated surveillance and IA book suggestion for readers.
+
+Since I'm specialized in Big Data, I worked with my colleagues on the database and his deployment. That's why you will only find the back-end here, with the strict minimum needed for the POC.
 
 ## Docker launch
 
-`docker-compose build` (needed if changes as been done on the code)
+Since the app is dockerized, you will need it on your computer.
+If that's not the case, you can find how to install it there : https://docs.docker.com/get-docker/
 
-`docker-compose up`
+You can start the back-end with the following command :
+  `docker-compose up`
+
+The back-end will send a message at http://localhost:8080/
+PG Admin will be accessible at http://localhost:5050/ (password: admin)
+
+Then, you will need to "add a new server", with these informations :
+- Host Name: postgres
+- password: changeme
 
 ## Technologies used
 
@@ -73,7 +85,5 @@ JSON :
 ```
 
 ## Known Bugs
-
-docker-compose up do not recreate the app image. This is why the command "docker-compose build" is strongly advised.
 
 doc route implementation (can be retrived in docs/index.html)
