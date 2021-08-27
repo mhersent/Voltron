@@ -14,7 +14,7 @@ You can start the back-end with the following command :
   `docker-compose up`
 
 The back-end will send a message at http://localhost:8080/
-PG Admin will be accessible at http://localhost:5050/ (password: admin)
+PG Admin will be accessible at http://localhost:5050/
 
 Then, you will need to "add a new server", with these informations :
 - Host Name: postgres
